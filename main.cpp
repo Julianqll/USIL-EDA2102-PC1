@@ -1,17 +1,20 @@
 #include<iostream>
 using namespace :: std;
 
-struct Nodo{
+struct nodo{
 
   int dato;
-  Nodo *sig;
+  nodo *sig;
 }*inicio,*fin;
+
+void insertarNodo();
 
 int main() {
 
-  return 0;
 
+  return 0;
 }
+
 
 
 
