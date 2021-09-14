@@ -30,13 +30,6 @@ class LinkedList
     ostream & print(ostream &os); 
 };
 
-template <typename T>
-void LinkedList<T>::insert_at_head(T elem)
-{
-  Node *pNew = new Node(elem, m_pHead);
-  m_pHead = pNew;
-  m_size++;
-}
 
 template <typename T>
 void LinkedList<T>::insert_at_tail(T elem)
