@@ -17,11 +17,11 @@ class Queue
   ostream &print(ostream &os);
   size_t size(){return m_list.size();}
 };
-template <typename T>
+/*template <typename T>
 Queue<T>::Queue()
 {
 
-}
+}*/
 
 template <typename T>
 void Queue<T>::insert(T n)
